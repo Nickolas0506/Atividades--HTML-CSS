@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>TABELA PERIÓDICA DOS ELEMENTOS</h1>
+
+    <div class="tabela">
+        <div class="elemento nao-metal">H<br>1</div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="elemento gases-nobres">He<br>2</div>
+
+        <div class="elemento metal-alcalino">Li<br>3</div>
+        <div class="elemento metal-alcalino-terroso">Be<br>4</div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="elemento não-metal">B<br>5</div>
+        <div class="elemento não-metal">C<br>6</div>
+        <div class="elemento não-metal">N<br>7</div>
+        <div class="elemento não-metal">O<br>8</div>
+        <div class="elemento não-metal">F<br>9</div>
+        <div class="elemento gases-nobres">Ne<br>10</div>
+
+        <div class="elemento metal-alcalino">Na<br>11</div>
+        <div class="elemento metal-alcalino-terroso">Mg<br>12</div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="elemento outros-metais">Al<br>13</div>
+        <div class="elemento não-metal">Si<br>14</div>
+        <div class="elemento não-metal">P<br>15</div>
+        <div class="elemento não-metal">S<br>16</div>
+        <div class="elemento não-metal">Cl<br>17</div>
+        <div class="elemento gases-nobres">Ar<br>18</div>
+
+        <div class="elemento metal-alcalino">K<br>19</div>
+        <div class="elemento metal-alcalino-terroso">Ca<br>20</div>
+        <div class="elemento metal-de-transição">Sc<br>21</div>
+        <div class="elemento metal-de-transição">Ti<br>22</div>
+        <div class="elemento metal-de-transição">V<br>23</div>
+        <div class="elemento metal-de-transição">Cr<br>24</div>
+        <div class="elemento metal-de-transição">Mn<br>25</div>
+        <div class="elemento metal-de-transição">Fe<br>26</div>
+        <div class="elemento metal-de-transição">Co<br>27</div>
+        <div class="elemento metal-de-transição">Ni<br>28</div>
+        <div class="elemento metal-de-transição">Cu<br>29</div>
+        <div class="elemento metal-de-transição">Zn<br>30</div>
+        <div class="elemento outros-metais">Ga<br>31</div>
+        <div class="elemento outros-metais">Ge<br>32</div>
+        <div class="elemento não-metal">As<br>33</div>
+        <div class="elemento não-metal">Se<br>34</div>
+        <div class="elemento não-metal">Br<br>35</div>
+        <div class="elemento gases-nobres">Kr<br>36</div>
+
+        <div class="elemento metal-alcalino">Rb<br>37</div>
+        <div class="elemento metal-alcalino-terroso">Sr<br>38</div>
+        <div class="elemento metal-de-transição">Y<br>39</div>
+        <div class="elemento metal-de-transição">Zr<br>40</div>
+        <div class="elemento metal-de-transição">Nb<br>41</div>
+        <div class="elemento metal-de-transição">Mo<br>42</div>
+        <div class="elemento metal-de-transição">Tc<br>43</div>
+        <div class="elemento metal-de-transição">Ru<br>44</div>
+        <div class="elemento metal-de-transição">Rh<br>45</div>
+        <div class="elemento metal-de-transição">Pd<br>46</div>
+        <div class="elemento metal-de-transição">Ag<br>47</div>
+        <div class="elemento metal-de-transição">Cd<br>48</div>
+        <div class="elemento outros-metais">Ln<br>49</div>
+        <div class="elemento outros-metais">Sn<br>50</div>
+        <div class="elemento outros-metais">Sb<br>51</div>
+        <div class="elemento não-metal">Te<br>52</div>
+        <div class="elemento não-metal">I<br>53</div>
+        <div class="elemento gases-nobres">Xe<br>54</div>
+
+        <div class="elemento metal-alcalino">Cs<br>55</div>
+        <div class="elemento metal-alcalino-terroso">Ba<br>56</div>
+        <div class="elemento lantanídeos">**<br>57-71</div>
+        <div class="elemento metal-de-transição">Hf<br>72</div>
+        <div class="elemento metal-de-transição">Ta<br>73</div>
+        <div class="elemento metal-de-transição">W<br>74</div>
+        <div class="elemento metal-de-transição">Re<br>75</div>
+        <div class="elemento metal-de-transição">Os<br>76</div>
+        <div class="elemento metal-de-transição">Lr<br>77</div>
+        <div class="elemento metal-de-transição">Pt<br>78</div>
+        <div class="elemento metal-de-transição">Au<br>79</div>
+        <div class="elemento metal-de-transição">Hg<br>80</div>
+        <div class="elemento outros-metais">Tl<br>81</div>
+        <div class="elemento outros-metais">Pb<br>82</div>
+        <div class="elemento outros-metais">Bi<br>83</div>
+        <div class="elemento outros-metais">Po<br>84</div>
+        <div class="elemento não-metal">At<br>85</div>
+        <div class="elemento gases-nobres">Rn<br>86</div>
+
+        <div class="elemento metal-alcalino">Fr<br>87</div>
+        <div class="elemento metal-alcalino-terroso">Ra<br>88</div>
+        <div class="elemento actinídeos">**<br>89-103</div>
+        <div class="elemento metal-de-transição">Rf<br>104</div>
+        <div class="elemento metal-de-transição">Db<br>105</div>
+        <div class="elemento metal-de-transição">Sg<br>106</div>
+        <div class="elemento metal-de-transição">Bh<br>107</div>
+        <div class="elemento metal-de-transição">Hs<br>108</div>
+        <div class="elemento metal-de-transição">Mt<br>109</div>
+        <div class="elemento metal-de-transição">Ds<br>110</div>
+        <div class="elemento metal-de-transição">Rg<br>111</div>
+        <div class="elemento metal-de-transição">Uub<br>112</div>
+        <div class="elemento outros-metais">Uut<br>113</div>
+        <div class="elemento outros-metais">Uuq<br>114</div>
+        <div class="elemento outros-metais">Uup<br>115</div>
+        <div class="elemento outros-metais">Uuh<br>116</div>
+        <div class="elemento outros-metais">Uus<br>117</div>
+        <div class="elemento gases-nobres">Uuo<br>118</div>
+
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="elemento lantanídeos">La<br>57</div>
+        <div class="elemento lantanídeos">Ce<br>58</div>
+        <div class="elemento lantanídeos">Pr<br>59</div>
+        <div class="elemento lantanídeos">Nd<br>60</div>
+        <div class="elemento lantanídeos">Pm<br>61</div>
+        <div class="elemento lantanídeos">Sm<br>62</div>
+        <div class="elemento lantanídeos">Eu<br>63</div>
+        <div class="elemento lantanídeos">Gd<br>64</div>
+        <div class="elemento lantanídeos">Tb<br>65</div>
+        <div class="elemento lantanídeos">Dy<br>66</div>
+        <div class="elemento lantanídeos">Ho<br>67</div>
+        <div class="elemento lantanídeos">Er<br>68</div>
+        <div class="elemento lantanídeos">Tm<br>69</div>
+        <div class="elemento lantanídeos">Yb<br>70</div>
+        <div class="elemento lantanídeos">Lu<br>71</div>
+
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="vazio"></div>
+        <div class="elemento actinídeos">Ac<br>89</div>
+        <div class="elemento actinídeos">Th<br>90</div>
+        <div class="elemento actinídeos">Pa<br>91</div>
+        <div class="elemento actinídeos">u<br>92</div>
+        <div class="elemento actinídeos">Np<br>93</div>
+        <div class="elemento actinídeos">Pu<br>94</div>
+        <div class="elemento actinídeos">Am<br>95</div>
+        <div class="elemento actinídeos">Cm<br>96</div>
+        <div class="elemento actinídeos">Bk<br>97</div>
+        <div class="elemento actinídeos">Cf<br>98</div>
+        <div class="elemento actinídeos">Es<br>99</div>
+        <div class="elemento actinídeos">Fm<br>100</div>
+        <div class="elemento actinídeos">Md<br>101</div>
+        <div class="elemento actinídeos">No<br>102</div>
+        <div class="elemento actinídeos">Lr<br>103</div>
+        <div class="vazio"></div>
+    </div>
+
+    #Lincoln Roncato - RM565944 |
+    #Natalia Souza - RM564099 |
+    #Nickolas Souza - RM564105
+</body>
+
+</html>
