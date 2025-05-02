@@ -20,3 +20,5 @@ Estou sempre aberto a aprender mais e evoluir como desenvolvedor. Se você tem s
 ## Como entrar em contato:
 
 Se você quiser conversar sobre projetos, colaborar ou apenas trocar uma ideia, não hesite em me enviar uma mensagem no meu Linkedin que é esse: https://www.linkedin.com/in/nickolas-davi-17824b355/
+
+## ABERTO A ESTÁGIO - CONTRATAÇÃO!
