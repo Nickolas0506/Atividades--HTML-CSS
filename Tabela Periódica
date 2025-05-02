@@ -1,3 +1,6 @@
+HTML 
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -281,3 +284,48 @@
 </body>
 
 </html>
+
+
+
+CSS
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns:repeat(18, 60px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.elemento {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.metal-alcalino { background-color: yellow; }
+.metal-alcalino-terroso { background-color: sandybrown; }
+.outros-metais { background-color: cyan; }
+.metal-de-transição { background-color: lightblue }
+.não-metal { background-color: orange; }
+.gases-nobres { background-color: purple; }
+.lantanídeos { background-color: green; }
+.actinídeos { background-color: red; }
+.vazio {
+    background: transparent;
+    border: none;
+}
