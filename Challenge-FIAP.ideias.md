@@ -1,0 +1,91 @@
+#Foco principal: Reduzir o absenteísmo nas teleconsultas.
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação - Saúde Digital</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; margin: 0; padding: 0; }
+    .slide { padding: 60px 30px; text-align: center; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+    .title { font-size: 48px; color: #0078d4; margin-bottom: 20px; }
+    .subtitle { font-size: 24px; color: #555; margin-bottom: 40px; }
+    .list { text-align: left; max-width: 700px; margin: 0 auto; }
+    .list li { margin-bottom: 15px; font-size: 20px; color: #333; }
+    .highlight { background: linear-gradient(90deg, #00c6ff, #0072ff); color: white; padding: 20px; border-radius: 10px; }
+    .impact { background: linear-gradient(90deg, #34e89e, #0f3443); color: white; padding: 20px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<section class="slide highlight">
+  <h1 class="title">Transformando Barreiras em Pontes</h1>
+  <p class="subtitle">Saúde Digital Para Todos</p>
+</section>
+
+<section class="slide">
+  <h2 class="title">Nossa Missão</h2>
+  <ul class="list">
+    <li>Reduzir o absenteísmo nas teleconsultas.</li>
+    <li>Meta: de 20% para menos de 10%.</li>
+    <li>Garantir acesso digital para todos.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2 class="title">Conectando Passo a Passo</h2>
+  <ul class="list">
+    <li>Mini-aulas presenciais ou por telefone.</li>
+    <li>Vídeos e cartilhas ilustradas, linguagem simples.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2 class="title">Ajuda Que Aproxima</h2>
+  <ul class="list">
+    <li>Central de Ajuda no WhatsApp, telefone e chat.</li>
+    <li>Plantão Digital para suporte prático.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2 class="title">Tecnologia sem Medo</h2>
+  <ul class="list">
+    <li>Aplicativo ultra-simples com botões grandes.</li>
+    <li>Teste de conexão automático antes da consulta.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2 class="title">Orientações que Acolhem</h2>
+  <ul class="list">
+    <li>Vídeos ensinando a usar o sistema.</li>
+    <li>Tutoriais sobre problemas comuns (áudio, vídeo, conexão).</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2 class="title">Um Amigo Sempre Presente</h2>
+  <ul class="list">
+    <li>Acompanhamento individual dos pacientes.</li>
+    <li>Ligações de lembrete 1 dia antes da consulta.</li>
+    <li>Ajuda em tempo real no momento da consulta.</li>
+  </ul>
+</section>
+
+<section class="slide impact">
+  <h2 class="title">Impacto Real</h2>
+  <ul class="list">
+    <li>Inclusão digital e redução da ansiedade.</li>
+    <li>Absenteísmo abaixo de 10%.</li>
+    <li>Maior eficiência e satisfação dos pacientes.</li>
+  </ul>
+</section>
+
+<section class="slide highlight">
+  <h1 class="title">Juntos, Fazemos a Diferença!</h1>
+</section>
+
+</body>
+</html>
