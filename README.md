@@ -14,7 +14,6 @@ Aqui você encontrará alguns dos projetos que desenvolvi, todos utilizando **HT
 
 - **HTML**
 - **CSS**
-- **JavaScript**
 
 Estou sempre aberto a aprender mais e evoluir como desenvolvedor. Se você tem sugestões ou dicas, fique à vontade para compartilhar! Vamos crescer juntos! 🚀
 
