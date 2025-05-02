@@ -1,0 +1,154 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuleiro de Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chess-board">
+        <div class="board">
+            <!-- Linha 8 -->
+            <div class="square blue"><span class="piece white-piece">♜</span></div>
+            <div class="square black"><span class="piece white-piece">♞</span></div>
+            <div class="square blue"><span class="piece white-piece">♝</span></div>
+            <div class="square black"><span class="piece white-piece">♛</span></div>
+            <div class="square blue"><span class="piece white-piece">♚</span></div>
+            <div class="square black"><span class="piece white-piece">♝</span></div>
+            <div class="square blue"><span class="piece white-piece">♞</span></div>
+            <div class="square black"><span class="piece white-piece">♜</span></div>
+
+            <!-- Linha 7 -->
+            <div class="square black"><span class="piece white-piece">♟</span></div>
+            <div class="square blue"><span class="piece white-piece">♟</span></div>
+            <div class="square black"><span class="piece white-piece">♟</span></div>
+            <div class="square blue"><span class="piece white-piece">♟</span></div>
+            <div class="square black"><span class="piece white-piece">♟</span></div>
+            <div class="square blue"><span class="piece white-piece">♟</span></div>
+            <div class="square black"><span class="piece white-piece">♟</span></div>
+            <div class="square blue"><span class="piece white-piece">♟</span></div>
+
+            <!-- Linha 6 -->
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+
+            <!-- Linha 5 -->
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+
+            <!-- Linha 4 -->
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+
+            <!-- Linha 3 -->
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+            <div class="square black"></div>
+            <div class="square blue"></div>
+
+            <!-- Linha 2 -->
+            <div class="square blue"><span class="piece black-piece">♙</span></div>
+            <div class="square black"><span class="piece black-piece">♙</span></div>
+            <div class="square blue"><span class="piece black-piece">♙</span></div>
+            <div class="square black"><span class="piece black-piece">♙</span></div>
+            <div class="square blue"><span class="piece black-piece">♙</span></div>
+            <div class="square black"><span class="piece black-piece">♙</span></div>
+            <div class="square blue"><span class="piece black-piece">♙</span></div>
+            <div class="square black"><span class="piece black-piece">♙</span></div>
+
+            <!-- Linha 1 -->
+            <div class="square black"><span class="piece black-piece">♖</span></div>
+            <div class="square blue"><span class="piece black-piece">♘</span></div>
+            <div class="square black"><span class="piece black-piece">♗</span></div>
+            <div class="square blue"><span class="piece black-piece">♕</span></div>
+            <div class="square black"><span class="piece black-piece">♔</span></div>
+            <div class="square blue"><span class="piece black-piece">♗</span></div>
+            <div class="square black"><span class="piece black-piece">♘</span></div>
+            <div class="square blue"><span class="piece black-piece">♖</span></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+CSS
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.chess-board {
+    border: 10px solid #393a3a;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: repeat(8, 70px);
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.black {
+    background-color: #000;
+}
+
+.blue {
+    background-color: #0205c5;
+}
+
+.piece {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    user-select: none;
+}
+
+.white-piece {
+    color: white;
+}
+
+.black-piece {
+    color: #333;
+}
