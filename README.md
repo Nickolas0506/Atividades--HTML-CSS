@@ -1,4 +1,4 @@
-# Olá, sou o Nick! 👋
+# Olá, sou o Nickolas! 👋
 
 Sou iniciante no mercado de tecnologia e atualmente estudo **Análise e Desenvolvimento de Sistemas (ADS)** na FIAP. Estou começando minha jornada como desenvolvedor e tenho focado no aprendizado e desenvolvimento de projetos utilizando **HTML** e **CSS**.
 
